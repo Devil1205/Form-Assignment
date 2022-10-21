@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.form{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg,#620f59 0%,black 35%, #870d0d 36%, black 65%,#00005c 66%);
+}
+
+.form input{
+    padding: 10px;
+    max-width: 350px;
+    width: 60vw;
+    margin: 15px 0px;
+    border-radius: 5px;
+    border: 1px solid black;
+    box-shadow: 3px 4px 7px 3px black;
+    outline: none;
+    
+}
+
+.btn{
+    margin: 7.5px 0px;
+    padding: 5px 10px;
+    font-size: 20px;
+    border-radius: 30px;
+    border: 1px solid black;
+    cursor: pointer;
+    background: linear-gradient(to right, red,green);
+    color: white;
+}
+
+.btn:hover{
+    background: linear-gradient(to left, red,green);
+}
+
+h1{
+    color: white;
+    margin: 10px 0px;
+    text-decoration: underline;
+}
